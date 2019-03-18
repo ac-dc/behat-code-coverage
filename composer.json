@@ -1,13 +1,5 @@
 {
-    "name": "dvdoug/behat-code-coverage",
-    "description": "Generate Code Coverage reports for Behat tests",
-    "type": "library",
-    "homepage": "https://github.com/dvdoug/behat-code-coverage",
-    "keywords": [
-        "behat", "code", "coverage", "generate", "generation", "build",
-        "report", "test", "tests", "code-coverage", "reports", "clover",
-        "scenario", "bdd"
-    ],
+    "name": "ac-dc/behat-code-coverage",
     "license": "BSD-2-Clause",
     "authors": [
         {
