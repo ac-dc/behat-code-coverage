@@ -25,7 +25,7 @@ class TestCase extends BaseTestCase
     /**
      * {@inheritdoc}
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -110,9 +110,8 @@ END_OF_FUNCTION_MOCK
         $args = func_get_args();
         $functionName = array_shift($args);
 
-        $callable = isset(self::$proxiedFunctions[$functionName])
-            ? self::$proxiedFunctions[$functionName]
-            : $functionName;
+        $callable = self::$proxiedFunctions[$functionName]
+            ?? $functionName;
 
         return call_user_func_array($callable, $args[0]);
     }

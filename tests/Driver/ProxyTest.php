@@ -22,7 +22,7 @@ class ProxyTest extends TestCase
     private $localDriver;
     private $remoteDriver;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
