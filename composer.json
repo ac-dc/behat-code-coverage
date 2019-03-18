@@ -1,12 +1,5 @@
 {
-    "name": "leanphp/behat-code-coverage",
-    "description": "Generate Code Coverage reports for Behat tests",
-    "type": "library",
-    "keywords": [
-        "behat", "code", "coverage", "generate", "generation", "build",
-        "report", "test", "tests", "code-coverage", "reports", "clover",
-        "scenario", "bdd"
-    ],
+    "name": "ac-dc/behat-code-coverage",
     "license": "BSD-2-Clause",
     "authors": [
         {
@@ -20,9 +13,9 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/leanphp/behat-code-coverage/issues",
-        "source": "https://github.com/leanphp/behat-code-coverage",
-        "docs": "https://github.com/leanphp/behat-code-coverage#behat-code-coverage"
+        "issues": "https://github.com/ac-dc/behat-code-coverage/issues",
+        "source": "https://github.com/ac-dc/behat-code-coverage",
+        "docs": "https://github.com/ac-dc/behat-code-coverage#behat-code-coverage"
     },
     "require": {
         "php": ">=7.1",
